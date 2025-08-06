@@ -64,12 +64,12 @@ const people = {
     name: "Adam Beh",
     age: 20,
     address: "Penang",
-    hobby: "Playing computer games"
+    hobby: "Playing computer games",
 };
-console.log(people.name)
-console.log(people["age"])
-console.log(people.address)
-console.log(people.hobby)
+console.log(people.name);
+console.log(people["age"]);
+console.log(people.address);
+console.log(people.hobby);
 
 // Now we learn about Arrays
 const fruits = ["Apple", "Mango", "Banana"];
@@ -79,10 +79,10 @@ console.log(fruits[2]); // Output: Banana
 
 // Two-dimensional Array
 const heroes = [
-  // 0         1           2
-  ["ironman", "spiderman", "hulk"], // 0
-  ["cabbage man", "robert cop", "kamen rider"], // 1
-  ["thanos", "darkseid", "ultron"], // 2
+    // 0         1           2
+    ["ironman", "spiderman", "hulk"], // 0
+    ["cabbage man", "robert cop", "kamen rider"], // 1
+    ["thanos", "darkseid", "ultron"], // 2
 ];
 
 console.log(heroes[0][0]); // Output: ironman
@@ -94,17 +94,17 @@ console.log(heroes[2][2]); // Output: ultron
 const comicCharacters = {
     MCU: {
         heroes: ["Iron Man", "Captain America", "Thor"],
-        villians: ["Thanos", "Ultron", "Dr Doom"]
+        villians: ["Thanos", "Ultron", "Dr Doom"],
     },
     DC: {
-        heroes: ["Superman","Batman","Flash"],
-        villians: ["Lex Luthor","Joker","Reverse Flash"]
-    }
+        heroes: ["Superman", "Batman", "Flash"],
+        villians: ["Lex Luthor", "Joker", "Reverse Flash"],
+    },
 };
 
-console.log(comicCharacters.MCU.heroes[1])
-console.log(comicCharacters.MCU.villians[2])
-console.log(comicCharacters.DC.villians[0])
-console.log(comicCharacters.DC.heroes[2])
+console.log(comicCharacters.MCU.heroes[1]);
+console.log(comicCharacters.MCU.villians[2]);
+console.log(comicCharacters.DC.villians[0]);
+console.log(comicCharacters.DC.heroes[2]);
 
 //Console log Captain America, Dr Doom, Lex Luthor and flash
